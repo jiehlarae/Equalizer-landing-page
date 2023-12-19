@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: no-repeat center/cover url(./assets/bg-main-mobile.png);
+    width: 100%;
+    height: 100vh;
+    font-size: 1rem;
+    color: #191826;
+}
+
+main {
+    margin: 0 auto;
+}
+
+header {
+    padding: 2rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section:first-of-type,
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section:first-of-type > p {
+    margin: 20px 0 156px;
+    line-height: 26px;
+    width: 327px;
+}
+
+section:nth-of-type(2) {
+    background: #191826;
+    color: #FCFAF9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+.phone-img {
+    width: 209px;
+    height: 430px;
+    margin-top: -95px;
+    z-index: 1;
+}
+
+.pattern-2 {
+    position: relative;
+}
+
+.pattern-2::before {
+    content: '';
+    position: absolute;
+    background: center/cover url(./assets/bg-pattern-2.svg);
+    width: 280px;
+    height: 420px;
+    top: -334px;
+    left: -140px;
+}
+
+.card-text {
+    background-color: #FA7453;
+    margin: 48px 0 64px;
+    border-radius: 10px;
+    padding: 48px 36px;
+    z-index: 1;
+}
+
+.card-text > h2 {
+    font-size: 2rem;
+}
+
+.card-text > p:first-of-type {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: 12px 0 36px;
+}
+
+.price {
+    font-size: 4.06rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.price > span {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+
+button:first-of-type {
+    background: #191826;
+    color: #FCFAF9;
+    margin: 32px 0 16px;
+}
+
+button:first-of-type:hover {
+    background: #66E2DC;
+}
+
+button:last-of-type:hover {
+    background:#FFB964;
+}
+
+button > span > img {
+    margin-right: 8px;
+}
+
+footer {
+    margin: 390px auto 0;
+    width: 90%;
+}
+
+footer > div {
+    margin: 64px 0;
+}
+
+footer > div > p {
+    line-height: 26px;
+    width: 90%;
+    margin-top: 32px;
+}
+
+footer > div > p > span {
+    font-weight: 700;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+}
+
+.social li {
+    list-style: none;
+    transition: filter 100ms;
+    margin-bottom: 80px;
+}
+
+.social > li:hover {
+    filter: brightness(0) saturate(100%) invert(58%) sepia(49%) saturate(1876%) hue-rotate(326deg) brightness(100%) contrast(97%);
+}
+
+@media (min-width:768px) {
+    .pattern-1 {
+        position: relative;
+        overflow-x: clip;
+        z-index: -1;
+    }
+
+    .pattern-1::before {
+        content: '';
+        position: absolute;
+        background: center/cover url(./assets/bg-pattern-1.svg);
+        width: 267px;
+        height: 400px;
+        right: -35px;
+        top: -25px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        width: 70%;
+        padding-top: 40px;
+    }
+
+    section:first-of-type > p {
+        width: 74%;
+        font-size: 1.125rem;
+        line-height: 28px;
+    }
+
+    section:nth-of-type(2) {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .pattern-2::before {
+        top: -336px;
+        left: -108px;
+    }
+
+    .phone-img {
+        width: 270px;
+        height: 556px;
+        margin-top: -320px;
+        margin-right: 0;
+    }
+
+    .card-text {
+        max-width: 399px;
+        height: 546px;
+        margin-left: -95px;
+        margin-bottom: -200px;
+    }
+
+    footer {
+        display: flex;
+        margin-top: 105px;
+    }
+
+    footer > div {
+        flex: 1.1;
+    }
+
+    footer > .social {
+        flex: 1;
+        justify-content: flex-end;
+        align-items: end;
+    }
+}
+
+@media (min-width:1040px) {
+    main {
+        width: 90%;
+    }
+
+    .pattern-1::before {
+        width: 312px;
+        height: 468px;
+        right: 0;
+        top: -40px;
+    }
+    
+    h1 {
+        font-size: 5.5rem;
+        width: 90%;
+    }
+    section:first-of-type > p {
+        width: 70%;
+        font-size: 1.25rem;
+        line-height: 34px;
+    }
+
+    section:nth-of-type(2) {
+       margin-top: 321px;
+       justify-content: space-evenly;
+       border-radius: 10px;
+    }
+
+    .phone-img {
+        width: 312px;
+        height: 642px;
+        margin: -390px 28.5px 0 28.5px;
+    }
+
+    .card-text {
+        padding: 58px 59px 48px 54px;
+        min-width: 446px;
+        height: 625px;
+    }
+
+    .card-text h2 {
+        font-size: 2.5rem;
+    }
+     
+    .card-text > p:first-of-type {
+        padding: 22px 0 39px;
+    }
+
+    .pattern-2::before {
+        width: 312px;
+        height: 468px;
+        top: -340px;
+        left: -224.5px;
+    }
+
+    footer > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    footer > div > p {
+        width: 53%;
+    }
+}
