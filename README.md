@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/jiehlarae/Equalizer-landing-page.git]
+- Live Site URL: [https://jiehlarae.github.io/Equalizer-landing-page/]
 
 ## My process
 
