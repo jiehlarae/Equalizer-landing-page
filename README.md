@@ -47,7 +47,7 @@ I faced challenges when positioning the patterns, working to ensure they seamles
 
 ## Author
 
-- Website - [Jiehla Dacara](https://github.com/jiehlarae)
+- Website - [@jiehlarae](https://github.com/jiehlarae)
 - Frontend Mentor - [@jiehlarae](https://www.frontendmentor.io/profile/jiehlarae)
 - Twitter - [@JiehlaDacara](https://twitter.com/JiehlaDacara)
 
