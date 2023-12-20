@@ -238,6 +238,9 @@ footer > div > p > span {
 }
 
 @media (min-width:1040px) {
+    body {
+        background:center/cover url(./assets/bg-main-desktop.png);
+    }
     main {
         width: 90%;
     }
